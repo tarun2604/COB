@@ -1,0 +1,129 @@
+.back {
+    display: flex;
+    min-height: 100vh;
+    padding-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+    background: linear-gradient(180deg, #476AE7 37.6%, rgba(255, 255, 255, 0.00) 100%);
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+    height: 10vh;
+    padding: 2vh 5vw;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  .box {
+    display: flex;
+    width: 22vw;
+    padding: 18vh 5vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10vh;
+    border-radius: 2vw;
+    background: #FFF;
+  }
+  
+  #input {
+    width: 100%;
+    max-width: 100%;
+    height: 5vh;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  #urlInput {
+    width: 100%;
+    height: 90%;
+    border: none;
+    outline: none;
+    font-size: inherit; 
+  }
+  #output {
+    width: 100%;
+    max-width: 100%;
+    height: 5vh;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  #shortenedUrl {
+    width: 100%;
+    height: 90%;
+    border: none;
+    outline: none;
+    font-size: inherit;
+  }
+  #genbut,
+  #copybut {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+@media (max-width: 767px) {
+    .nav {
+      height: 8vh;
+      padding: 2vh 3vw;
+    }
+  
+    p {
+      font-size: 6vw;
+    }
+  
+    .box {
+      width: 90vw;
+      padding: 8vh 3vw;
+      border-radius: 5vw;
+    }
+  
+    #input,
+    #output {
+      height: 7vh;
+    }
+  
+    #genbut {
+      width: 20vw;
+      height: 7vh;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+      padding: 2vh 5vw;
+    }
+  
+    p {
+      font-size: 3.5vw;
+    }
+  
+    .box {
+      width: 80vw;
+      padding: 6vh 5vw;
+      border-radius: 3vw;
+    }
+
+  }
+  
